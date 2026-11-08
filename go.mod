@@ -18,7 +18,7 @@ require (
 	github.com/jpillora/backoff v1.0.0
 	github.com/keybase/go-keybase-chat-bot v0.0.0-20221220212439-e48d9abd2c20
 	github.com/kyokomi/emoji/v2 v2.2.13
-	github.com/labstack/echo/v4 v4.12.0
+	github.com/labstack/echo/v4 v4.16.3
 	github.com/lrstanley/girc v0.0.0-20240823210506-80555f2adb03
 	github.com/matterbridge/Rocket.Chat.Go.SDK v0.0.0-20211016222428-79310a412696
 	github.com/matterbridge/go-xmpp v0.0.0-20240523230155-7154bfeb76e8
@@ -41,7 +41,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/slack-go/slack v0.14.0
 	github.com/spf13/viper v1.19.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.11.1
 	github.com/vincent-petithory/dataurl v1.0.0
 	github.com/writeas/go-strip-markdown v2.0.1+incompatible
 	github.com/yaegashi/msgraph.go v0.1.4
@@ -49,7 +49,7 @@ require (
 	go.mau.fi/whatsmeow v0.0.0-20240821142752-3d63c6fcc1a7
 	golang.org/x/image v0.19.0
 	golang.org/x/oauth2 v0.22.0
-	golang.org/x/text v0.17.0
+	golang.org/x/text v0.42.0
 	gomod.garykim.dev/nc-talk v0.3.0
 	google.golang.org/protobuf v1.34.2
 	layeh.com/gumble v0.0.0-20221205141517-d1df60a3cc14
@@ -68,7 +68,6 @@ require (
 	github.com/fatih/color v1.17.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.7 // indirect
-	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gopackage/ddp v0.0.3 // indirect
@@ -82,13 +81,13 @@ require (
 	github.com/hashicorp/yamux v0.1.1 // indirect
 	github.com/kettek/apng v0.0.0-20191108220231-414630eed80f // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
-	github.com/labstack/gommon v0.4.2 // indirect
+	github.com/labstack/gommon v0.5.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattermost/go-i18n v1.11.1-0.20211013152124-5c415071e404 // indirect
 	github.com/mattermost/ldap v0.0.0-20231116144001-0f480c025956 // indirect
 	github.com/mattermost/logr/v2 v2.0.21 // indirect
-	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mattn/go-colorable v0.1.15 // indirect
+	github.com/mattn/go-isatty v0.0.22 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
@@ -127,12 +126,12 @@ require (
 	go.mau.fi/libsignal v0.1.1 // indirect
 	go.mau.fi/util v0.6.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.25.0 // indirect
+	golang.org/x/crypto v0.57.0 // indirect
 	golang.org/x/exp v0.0.0-20240707233637-46b078467d37 // indirect
-	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sys v0.22.0 // indirect
-	golang.org/x/term v0.22.0 // indirect
-	golang.org/x/time v0.5.0 // indirect
+	golang.org/x/net v0.60.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/term v0.46.0 // indirect
+	golang.org/x/time v0.15.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240722135656-d784300faade // indirect
 	google.golang.org/grpc v1.65.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
@@ -150,4 +149,4 @@ require (
 
 //replace github.com/matrix-org/gomatrix => github.com/matterbridge/gomatrix v0.0.0-20220205235239-607eb9ee6419
 
-go 1.22.0
+go 1.26.0
